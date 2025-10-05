@@ -2,6 +2,17 @@
 
 A Python GUI application to download TikTok videos (without watermark) and photo slideshows using web scraping.
 
+## Screenshots
+
+### Initial Interface
+![Initial Interface](docs/screenshots/01_initial_interface.png)
+
+### Video Download Mode
+![Video Mode](docs/screenshots/02_video_mode.png)
+
+### Slideshow Mode
+![Slideshow Mode](docs/screenshots/03_slideshow_mode.png)
+
 ## Features
 
 - 🎥 Download TikTok videos without watermark
@@ -76,6 +87,11 @@ This application uses web scraping techniques to extract TikTok media:
 3. Parses video/image URLs from the JSON
 4. Downloads media files directly (videos without watermark)
 5. Fallback to third-party APIs if direct scraping fails
+
+## Documentation
+
+- [Detailed Usage Guide](USAGE.md) - Comprehensive guide with examples
+- [Example Usage Script](example_usage.py) - Programmatic usage examples
 
 ## Disclaimer
 
